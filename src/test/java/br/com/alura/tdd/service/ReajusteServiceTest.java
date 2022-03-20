@@ -18,8 +18,8 @@ public class ReajusteServiceTest {
     /*
     * Outras anotações interessantes:
     * @AfterEach - depois de cada um dos métodos de testes
-    * @BeforeAll - antes de TODOS os métodos de testes
-    * @AfterAll - depois de TODOS os métodos de testes
+    * @BeforeAll - antes de TODOS os métodos de testes (O método que conter essa anotação deve ser STATIC)
+    * @AfterAll - depois de TODOS os métodos de testes (O método que conter essa anotação deve ser STATIC)
     **/
     @BeforeEach /* Antes de cada um dos métodos de testes, chame esse */
     public void inicializar() {
